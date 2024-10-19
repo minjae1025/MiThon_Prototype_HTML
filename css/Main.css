@@ -1,0 +1,67 @@
+@font-face {
+    font-family: 'HakgyoansimNadeuriTTF-B';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2408-5@1.0/HakgyoansimNadeuriTTF-B.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+html, body {
+    height: 100%; /* 전체 높이 설정 */
+    width: 100%;  /* 전체 너비 설정 */
+    margin: 0;    /* 기본 여백 제거 */
+    padding: 0;   /* 기본 패딩 제거 */
+    overflow: hidden; /* 스크롤 방지 */
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #75D1FB;
+}
+
+.container {
+    width: 430px;
+    height: 932px;
+    margin: 0 auto;
+    border-radius: 10px;
+    background-color: #75D1FB;
+    display: flex;
+    flex-direction: column;
+}
+
+.Main_Menu {
+    z-index: 1;
+}
+
+.find_button {
+    position: relative;
+    top: -640px;
+    left: 330px;
+    z-index: 1;
+}
+
+.book_button {
+    position: relative;
+    top: -640px;
+    left: 330px;
+    z-index: 1;
+}
+
+.back_green {
+    position: relative;
+    top: -180px;
+}
+
+.going_button {
+    position: relative;
+    z-index: 1;
+    top: -250px;
+    left: 95px;
+    z-index: 1;
+}
+
+.review_button {
+    position: relative;
+    z-index: 1;
+    top: -240px;
+    left: 120px;
+}

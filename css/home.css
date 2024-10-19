@@ -1,0 +1,68 @@
+@font-face {
+    font-family: 'HakgyoansimNadeuriTTF-B';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2408-5@1.0/HakgyoansimNadeuriTTF-B.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #75D1FB;
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* 전체 스크롤 방지 (좌우 및 상하) */
+}
+
+.container {
+    width: 430px;
+    height: 932px;
+    margin: 0 auto;
+    border-radius: 10px;
+    background-color: #75D1FB;
+    display: flex;
+    flex-direction: column;
+}
+
+.cloud1, .cloud2, .logo, .button_back, .button_font {
+    position: relative;
+}
+
+.cloud1 {
+    top: 150px;
+    left: -21px;
+}
+
+.cloud2 {
+    top: 30px;
+    left: 270px;
+}
+
+.logo {
+    top: 150px;
+    left: 50px;
+}
+
+.button_font {
+    font-family: 'HakgyoansimNadeuriTTF-B';
+    font-size: 64px;
+    color: white;
+    -webkit-text-stroke: 2px black;
+    z-index: 1;
+    top: -15px;
+    left: 50px;
+    font-weight: lighter;
+    text-decoration-line: none;
+}
+
+
+.button_back {
+    border: 2px solid #000000; 
+    padding-top: 30px;
+    margin: 100px;
+    border-radius: 20px;
+    top: 180px;
+    left: 0px;
+    background-color: #47E847;
+    
+}
+

@@ -1,0 +1,32 @@
+body {
+    margin: 0 auto;
+    padding: 0;
+    height: 100%; /* 전체 높이 설정 */
+    width: 100%;  /* 전체 너비 설정 */
+    overflow: hidden; /* 스크롤 방지 */
+}
+
+main {
+    position: relative;
+    top: 2px;
+}
+
+.back {
+    position: relative;
+    z-index: 1;
+    top: -865px;
+    left: 8px;
+}
+
+.in_message {
+    position: relative;
+    z-index: 1;
+    top: -385px;
+    left: -20px;
+    border-radius: 5px;
+    width: 340px;
+    font-size: 18px;
+    padding-top: 10px;
+    padding-bottom: 6px;
+    text-decoration-line: none;
+}

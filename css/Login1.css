@@ -1,0 +1,116 @@
+@font-face {
+    font-family: 'HakgyoansimNadeuriTTF-B';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2408-5@1.0/HakgyoansimNadeuriTTF-B.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #75D1FB;
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* 전체 스크롤 방지 (좌우 및 상하) */
+}
+
+.container {
+    width: 430px;
+    height: 932px;
+    margin: 0 auto;
+    border-radius: 10px;
+    background-color: #75D1FB;
+    display: flex;
+    flex-direction: column;
+}
+
+.cloud1, .cloud2, .logo{
+    position: relative;
+}
+
+.cloud1 {
+    top: 150px;
+    left: -21px;
+}
+
+.cloud2 {
+    top: 30px;
+    left: 270px;
+}
+
+
+.sign_up, .login {
+    position: relative;
+    border: 2px solid black;
+    border-radius: 20px;
+    margin: 50px;
+    background-color: #E6F1F4;
+}
+
+.sign_up {
+    top: 20px;
+}
+
+.login {
+    top: 0px
+}
+
+.text1, .text2, .text3 {
+    position: relative;
+    font-family: 'HakgyoansimNadeuriTTF-B';
+    color: white;
+    
+    z-index: 1;
+    font-weight: lighter;
+}
+
+.text1 {
+    -webkit-text-stroke: 3px black;
+    font-size: 64px;
+    top: 70px;
+    left: 120px;
+}
+
+.text2, .text3 {
+    -webkit-text-stroke: 2px black;
+    font-size: 40px;
+    top: 110px;
+    left: 60px;
+}
+
+.text3 {
+    top: 215px
+}
+
+.button_font {
+    position: relative;
+    font-family: 'HakgyoansimNadeuriTTF-B';
+    font-size: 60px;
+    color: white;
+    top: -35px;
+    left: 45px;
+    -webkit-text-stroke: 2px black;
+    z-index: 1;
+    font-weight: lighter;
+    text-decoration-line: none;
+}
+
+
+.button_back {
+    position: relative;
+    border: 2px solid #000000; 
+    padding-top: 70px;
+    margin: 120px;
+    border-radius: 20px;
+    top: -135px;
+    left: 0px;
+    background-color: #47E847;
+    
+}
+
+.input_id, .input_pw {
+    background-color: #E6F1F4;
+    width: 320px;
+    height: 60px;
+    border-radius: 20px;
+    font-size: 24px;
+}
